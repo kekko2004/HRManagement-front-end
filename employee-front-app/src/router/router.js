@@ -4,7 +4,7 @@ import EmployeeComponent from '@/components/EmployeeComponent.vue';
 import RegisterComponent from '@/components/RegisterComponent.vue';
 
 const routes = [
-    { path: '/ ', name: 'login', component: LoginComponent },
+    { path: '', name: 'login', component: LoginComponent },
     { path: '/login', name: 'login', component: LoginComponent },
     {
         path: '/employees',
